@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stuffs/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="Stuffs/sweetalert/dist/sweetalert2.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="stuffs/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="stuffs/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="stuffs/img/favicon-16x16.png">
+    <script src="Stuffs/popper/popper.min.js" defer></script>
+    <script src="Stuffs/sweetalert/dist/sweetalert2.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body onload="loaded()">
+    <div class="over">
+        <div class="container">     
+            <div class="genPassword">
+                <div id="passWord" class="passwordView"></div>
+                <div class="copy-sign"><i class="bi bi-link-45deg"></i></div>
+            </div>
+            <div class="passwordSet">
+                <div class="setRow">
+
+                    <div class="length">
+                        <label for="length">Password length: <span id="viewLength"></span></label>
+                        <input type="range" id="passwordLength" name="length" class="length" min="1" value="" max="20">
+                    </div>
+                
+                    <div class="upperCase">
+                        <label for="upperCase">Include uppercase :</label>
+                        <input type="checkbox" checked="true" id="upperCase" name="upperCase" class="upperCaseCheckBox">
+                    </div>
+                
+                </div>
+            </div>
+                <div class="btn">
+                    <button id="generate">Generate</button>
+                </div>
+                <div class="githublink">
+                    <a href="https://github.com/Johnocaleb/PasswordGenerator"><i class="bi bi-github"></i> Github</a>
+                </div>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --lightgradient-color: radial-gradient(#00f798ea, transparent);
+    --darkgradient-color: radial-gradient(#fff, #fff);
+}
+
+body{
+    max-height: 100vh;
+    background: var(--lightgradient-color);
+    padding: 20px;
+}
+
+.over{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 36px 8px 36px 8px;
+    height: max-content;
+    padding: 40px 60px;
+    background: radial-gradient(transparent, #fff);
+}
+
+.genPassword{
+    position: relative;
+    border: 4px dashed #008a99be;
+    text-align: center;
+    padding: 10px 20px;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    word-wrap: break-word;
+    word-break: break-all;
+    cursor: pointer;
+}
+
+.passwordView{
+    font-size: 20px;
+}
+.copy-sign{
+    border-left: 1px solid gray;
+    padding-left: 9px;
+    font-size: 25px;
+}
+
+.copy-sign i:hover {
+    background: rgba(128, 128, 128, 0.445);
+    border-radius: 9px;
+    padding: 5px;
+    color: #fff;
+}
+
+.passwordSet{
+    position: relative;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 6px 30px 6px 30px;
+    background: var(--darkgradient-color);
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#generate{
+    width: 100%;
+    padding: 10px;
+    background: #008a99be;
+    color: #fff;
+    font-size: large;
+    border-radius: 16px 50px 16px 50px;
+    border: none;
+}
+
+.setRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upperCaseCheckBox{
+    height: 25px;
+    width: 100%;
+}
+
+.upperCase{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.upperCase label{
+    font-size: small;
+}
+
+.length{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.length label{
+    font-size: small;
+}
+
+.passwordLength{
+    padding: 12px;
+    height: 20px;
+    width: 100%;
+}
+
+.githublink{
+    text-align: center;
+    padding-top: 1rem;
+}
