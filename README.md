@@ -15,9 +15,9 @@
 
 ### Links
 
-- [Live Site URL](https://custompassword.netlify.app)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## Author
 
--[Twitter](https://www.twitter.com/Johnocaleb)
+- Twitter - [@Johnocaleb](https://www.twitter.com/Johnocaleb)
 
